@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Michael Carter",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "michael.carter@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university", "close friend"],
+    "bio": "We studied computer science together. Loves cricket and late-night coding sessions.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 2,
+    "name": "Emily Watson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emily.watson@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["colleague", "frontend dev"],
+    "bio": "Worked together on several React projects. Has a great eye for UI/UX design.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Daniel Brooks",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "daniel.brooks@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school", "football"],
+    "bio": "Childhood friend. Plays football every weekend and supports Barcelona.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 4,
+    "name": "Sophia Turner",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "sophia.turner@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Grew up in the same neighborhood. Very supportive and caring.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 5,
+    "name": "James Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "james.wilson@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["gym", "fitness"],
+    "bio": "Workout partner. Helps me stay consistent with fitness goals.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Harris",
+    "picture": "https://randomuser.me/api/portraits/women/63.jpg",
+    "email": "olivia.harris@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["university", "group study"],
+    "bio": "Used to prepare for exams together. Very organized and disciplined.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 7,
+    "name": "William Scott",
+    "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+    "email": "william.scott@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["mentor", "career"],
+    "bio": "Senior who guided me in my early programming journey.",
+    "goal": 14,
+    "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 8,
+    "name": "Ava Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "ava.martinez@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["design", "creative"],
+    "bio": "Graphic designer friend who inspires my UI design ideas.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 9,
+    "name": "Ethan Clark",
+    "picture": "https://randomuser.me/api/portraits/men/39.jpg",
+    "email": "ethan.clark@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["travel", "adventure"],
+    "bio": "Travel buddy. We've explored several places together.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 10,
+    "name": "Isabella Lewis",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "isabella.lewis@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin. We share a strong bond and catch up during family events.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  }
+]
