@@ -6,7 +6,7 @@
     "email": "michael.carter@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["university", "close friend"],
+    "tags": ["close friend"],
     "bio": "We studied computer science together. Loves cricket and late-night coding sessions.",
     "goal": 14,
     "next_due_date": "2026-03-25"
@@ -30,7 +30,7 @@
     "email": "daniel.brooks@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": ["school", "football"],
+    "tags": [ "football"],
     "bio": "Childhood friend. Plays football every weekend and supports Barcelona.",
     "goal": 14,
     "next_due_date": "2026-04-23"
@@ -42,7 +42,7 @@
     "email": "sophia.turner@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
-    "tags": ["neighbor", "family friend"],
+    "tags": [ "family friend"],
     "bio": "Grew up in the same neighborhood. Very supportive and caring.",
     "goal": 14,
     "next_due_date": "2026-03-30"
@@ -66,7 +66,7 @@
     "email": "olivia.harris@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": ["university", "group study"],
+    "tags": ["group study"],
     "bio": "Used to prepare for exams together. Very organized and disciplined.",
     "goal": 14,
     "next_due_date": "2026-04-25"
@@ -78,7 +78,7 @@
     "email": "william.scott@gmail.com",
     "days_since_contact": 20,
     "status": "overdue",
-    "tags": ["mentor", "career"],
+    "tags": ["mentor"],
     "bio": "Senior who guided me in my early programming journey.",
     "goal": 14,
     "next_due_date": "2026-03-20"
@@ -102,7 +102,7 @@
     "email": "ethan.clark@gmail.com",
     "days_since_contact": 7,
     "status": "on-track",
-    "tags": ["travel", "adventure"],
+    "tags": ["travel"],
     "bio": "Travel buddy. We've explored several places together.",
     "goal": 14,
     "next_due_date": "2026-04-21"
@@ -118,5 +118,29 @@
     "bio": "Cousin. We share a strong bond and catch up during family events.",
     "goal": 14,
     "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 11,
+    "name": "Noah Bennett",
+    "picture": "https://randomuser.me/api/portraits/men/85.jpg",
+    "email": "noah.bennett@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["startup", "tech"],
+    "bio": "Met at a startup event. Always shares exciting tech ideas.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 12,
+    "name": "Mia Anderson",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "mia.anderson@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["photography", "travel"],
+    "bio": "Photography enthusiast. Loves capturing moments during trips.",
+    "goal": 14,
+    "next_due_date": "2026-04-26"
   }
 ]
