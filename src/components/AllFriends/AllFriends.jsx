@@ -1,11 +1,41 @@
-import React, { use } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
-const friendsPromise = fetch("/friends.json").then(res => res.json());
+
+
+
+// const friendsPromise = fetch("/friends.json").then(res => res.json());
 
 const AllFriends = () => {
-    const friends = use(friendsPromise);
-    console.log(friends);
+
+    const [friends, setFriends] = useState([]); 
+    const [loading, setLoading] = useState(true);
+
+
+    useEffect( ()=> {
+        fetch("/friends.json")
+        .then(res => res.json())
+        .then(data => {
+            setFriends(data);
+            setLoading(false);
+        });
+    }, []);
+
+    if (loading) {
+  return (
+    <div className="flex justify-center items-center h-40">
+      <span className="loading loading-spinner loading-lg"></span>
+    </div>
+  );
+}
+
+    
+
+
+
+    // const friends = use(friendsPromise);
+    // console.log(friends);
+
 
 
     return (
@@ -17,7 +47,7 @@ const AllFriends = () => {
 
                 {
                     friends.map(friend =>
-                        <div className="bg-[#f3f4f6] rounded-xl shadow-md p-6 text-center w-full max-w-xs mx-auto hover:shadow-lg transition hover:-translate-y-1">
+                        <div key={friend.id} className="bg-[#f3f4f6] rounded-xl shadow-md p-6 text-center w-full max-w-xs mx-auto hover:shadow-lg transition hover:-translate-y-1">
 
                             {/* Profile Image */}
                             <div className="flex justify-center mb-4">
@@ -36,7 +66,7 @@ const AllFriends = () => {
 
                             {/* Category */}
                             <div className="mt-3 flex justify-center flex-wrap gap-2">
-                                {friend.tags.map(tag => <span className="text-xs px-3 py-1 rounded-full bg-green-200 text-green-800 font-medium">
+                                {friend.tags.map((tag,index) => <span key={index} className="text-xs px-3 py-1 rounded-full bg-green-200 text-green-800 font-medium">
                                     {tag}
                                 </span>
 
