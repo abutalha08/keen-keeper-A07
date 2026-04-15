@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider } from 'react-router';
 
 import { router } from './routes/Routes';
+import FriendContextProvider from './context/FriendContext';
 
 
 
@@ -11,6 +12,9 @@ import { router } from './routes/Routes';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />
+    <FriendContextProvider>
+      <RouterProvider router={router} />
+
+    </FriendContextProvider>
   </StrictMode>,
 )
