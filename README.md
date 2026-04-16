@@ -49,7 +49,7 @@ By offering gentle reminders and structured tracking, KeenKeeper ensures that im
 
 ## 🚀 Live Demo
 Check out the live project here:  
-[🌐 KeenKeeper Live](link)
+[🌐 KeenKeeper Live](https://keen-keeper-a7-project-ph.netlify.app/)
 
 ---
 
