@@ -46,13 +46,21 @@ By offering gentle reminders and structured tracking, KeenKeeper ensures that im
 
 ---
 
+
+## 🚀 Live Demo
+Check out the live project here:  
+[🌐 KeenKeeper Live](link)
+
+---
+
 ## 📸 Screenshots
 
 <details>
 <summary><strong>🏠 Home Page — Friends Overview</strong></summary>
 <br/>
 
-![Home Page](assets/images/keenKeeper-homepage.png)
+![Home Page](./src/assets/images/keenKeeper-homepage.png)
+
 
 > The Home page displays all your friends in a responsive 4-column grid. Each card shows the friend's photo, name, days since last contact, tags, and color-coded status (on-track, almost due, overdue).
 
@@ -62,7 +70,7 @@ By offering gentle reminders and structured tracking, KeenKeeper ensures that im
 <summary><strong>👤 Friend Details Page</strong></summary>
 <br/>
 
-![Friend Details Page](/friendDetails.png)
+![Friend Details Page](assets/images/friendDetails.png)
 
 > Clicking any friend card opens their Detail Page. The left column shows their profile info and action buttons; the right column shows contact stats, relationship goal, and a quick check-in panel.
 
@@ -72,7 +80,7 @@ By offering gentle reminders and structured tracking, KeenKeeper ensures that im
 <summary><strong>📜 Timeline Page</strong></summary>
 <br/>
 
-![Timeline Page](/timeline.png)
+![Timeline Page](assets/images/timeline.png)
 
 > The Timeline logs every interaction — calls, texts, and video chats — in reverse chronological order, with filter options for each interaction type.
 
@@ -82,7 +90,7 @@ By offering gentle reminders and structured tracking, KeenKeeper ensures that im
 <summary><strong>📊 Friendship Analytics (Stats) Page</strong></summary>
 <br/>
 
-![Friendship Analytics Page](/Friendship-Analytics.png)
+![Friendship Analytics Page](assets/images/Friendship-Analytics.png)
 
 > The Stats page shows a Recharts donut chart breaking down your interactions by type (Call / Text / Video), giving you a bird's-eye view of how you communicate.
 
