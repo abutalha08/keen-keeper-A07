@@ -7,7 +7,7 @@
 
 <br/>
 
-![KeenKeeper Home](./keenKeeper-homepage.png)
+![KeenKeeper Home](./src/assets/images/keenKeeper-homepage.png)
 
 <br/>
 
@@ -70,7 +70,7 @@ Check out the live project here:
 <summary><strong>👤 Friend Details Page</strong></summary>
 <br/>
 
-![Friend Details Page](assets/images/friendDetails.png)
+![Friend Details Page](./src/assets/images/friendDetails.png)
 
 > Clicking any friend card opens their Detail Page. The left column shows their profile info and action buttons; the right column shows contact stats, relationship goal, and a quick check-in panel.
 
@@ -80,7 +80,7 @@ Check out the live project here:
 <summary><strong>📜 Timeline Page</strong></summary>
 <br/>
 
-![Timeline Page](assets/images/timeline.png)
+![Timeline Page](./src/assets/images/timeline.png)
 
 > The Timeline logs every interaction — calls, texts, and video chats — in reverse chronological order, with filter options for each interaction type.
 
@@ -90,7 +90,7 @@ Check out the live project here:
 <summary><strong>📊 Friendship Analytics (Stats) Page</strong></summary>
 <br/>
 
-![Friendship Analytics Page](assets/images/Friendship-Analytics.png)
+![Friendship Analytics Page](./src/assets/images/Friendship-Analytics.png)
 
 > The Stats page shows a Recharts donut chart breaking down your interactions by type (Call / Text / Video), giving you a bird's-eye view of how you communicate.
 
