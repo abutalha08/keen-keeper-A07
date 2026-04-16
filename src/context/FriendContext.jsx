@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react';
+import { toast } from 'react-toastify';
 
 export const FriendContext = createContext();
 
@@ -17,7 +18,7 @@ const FriendContextProvider = ({ children }) => {
             ...storedFriends
         ]);
 
-        alert(`Call with ${currentFriend.name}!`);
+        toast.success(`Call with ${currentFriend.name}!`);
     };
 
     const handleText = (currentFriend) => {
@@ -30,7 +31,7 @@ const FriendContextProvider = ({ children }) => {
             ...storedFriends
         ]);
 
-        alert(`Text with ${currentFriend.name}!`);
+        toast.success(`Text with ${currentFriend.name}!`);
     };
 
     const handleVideo = (currentFriend) => {
@@ -43,7 +44,7 @@ const FriendContextProvider = ({ children }) => {
             ...storedFriends
         ]);
 
-        alert(`Video with ${currentFriend.name}!`);
+        toast.success(`Video with ${currentFriend.name}!`);
     };
 
     const data = {

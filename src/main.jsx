@@ -5,6 +5,7 @@ import { RouterProvider } from 'react-router';
 
 import { router } from './routes/Routes';
 import FriendContextProvider from './context/FriendContext';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -15,6 +16,9 @@ createRoot(document.getElementById('root')).render(
     <FriendContextProvider>
       <RouterProvider router={router} />
 
+      <ToastContainer position="top-center" />
+
     </FriendContextProvider>
+
   </StrictMode>,
 )
