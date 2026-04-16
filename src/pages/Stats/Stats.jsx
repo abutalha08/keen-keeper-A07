@@ -23,7 +23,7 @@ const videoCount = storedFriends.filter(item => item.type === "video").length;
 
     return (
         <div className='my-16 shadow p-10 rounded-md max-w-6xl  mx-auto border border-slate-300'>
-            <h2 className='font-bold text-4xl text-center mb-8'>Communication Activity Overview</h2>
+            <h2 className='font-bold text-4xl text-center mb-8'>Friendship Analytics</h2>
             <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '80vh', margin: 'auto', aspectRatio: 1 }} responsive>
       <Pie
         data={data}
